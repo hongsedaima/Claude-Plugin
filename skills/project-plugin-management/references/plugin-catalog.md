@@ -67,7 +67,6 @@ Use this reference to choose Claude plugin marketplace plugins by project need. 
 
 | Plugin | URL | Default | Trigger | Typical prompt | Overlap notes |
 | -- | -- | -- | -- | -- | -- |
-| `LegalZoom` | https://claude.com/plugins/legalzoom | 按需, cautious | Legal document risk review | `用 LegalZoom 审查这份合同，标出关键风险和需要律师确认的条款` | Does not replace a lawyer. |
 | `Productivity` | https://claude.com/plugins/productivity | 常驻 for daily work assistant use | Tasks, day planning, work context memory | `帮我整理今天的任务和上下文，给出接下来最该做的三件事` | Overlaps with `Remember`; personal workflow focus. |
 | `Engineering` | https://claude.com/plugins/engineering | 常驻 for engineering management | Standups, code review, architecture, incidents, docs | `用 Engineering 帮我整理这次架构决策，输出 ADR 草稿` | Overlaps with engineering-specific review plugins. |
 | `Data` | https://claude.com/plugins/data | 按需, cautious | SQL, dataset exploration, visualizations | `用 Data 帮我写 SQL 分析这个指标，并生成面向业务的结论` | Sensitive data boundary required. |
